@@ -7,3 +7,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+
+.vscode
+
+
+main1.py
