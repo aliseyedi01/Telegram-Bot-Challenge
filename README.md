@@ -1,50 +1,42 @@
-# Football Grass Telegram Bot
+# Football Grass Telegram Bot ⚽
 
-
-## Information 
+## 🌐 Overview
 
 - A Telegram bot built with Python using the `python-telegram-bot` library. 
-- The bot provides information about number of your commit in telegram
+- The bot provides information about the number of your commits in Telegram.
 
-
-## Demo
+## 🎥 Demo
 
 [Online Bot](https://t.me/footbalgrassbot)
 
-
-## Screenshots 
-
+## 📸 Screenshots 
 
 ![image](https://github.com/aliseyedi01/Portfolio-Telegram-Bot/assets/118107025/ca62063c-6db1-4b00-8c3a-d76f4661719d)
 
+## 🚀 Features
 
-## Features
+- **Commit** : Show the number of today's commits and all commits from 2024.
+- **Streak** : Show continuous days of committed activity for the current and longest streak.
 
-- **Commit** : Show number of today's commit and all commit from 2024
-- **Streak** :  show continues day done commit for current and longest
-
-
-## Technology Used
+## 🛠️ Technology Used
 
 - **Python:** Programming language used for bot development.
 - **python-telegram-bot:** Telegram Bot API wrapper for Python.
 - **requests:** Library for making HTTP requests.
 - **dotenv:** Library for loading environment variables from a .env file.
 
-
-
-## Prerequisites
+## ⚙️ Prerequisites
 
 - Python 3.6 or later
 - Telegram API token
 - GitHub API token 
 
-## Installation
+## 📥 Installation
 
 1. Clone the repository:
 
     ```bash
-    git https://github.com/aliseyedi01/Footbal_Grass_Bot.git
+    git clone https://github.com/aliseyedi01/Footbal_Grass_Bot.git
     cd your_repository
     ```
 
@@ -58,7 +50,7 @@
 
     ```plaintext
     TOKEN_TEL=your_telegram_api_token
-	TOKEN_GH=your_github_api_token
+    TOKEN_GH=your_github_api_token
     ```
 
 4. Run the bot:
@@ -67,12 +59,10 @@
     python main.py
     ```
 
-## Usage
+## 📝 Usage
 
 1. Start the bot by sending the `/report` command in the Telegram app.
 
-
-
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
